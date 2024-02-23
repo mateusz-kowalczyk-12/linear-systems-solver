@@ -1,0 +1,51 @@
+Zadanie B:
+Metoda Jacobiego:
+	liczba iteracji: 24,
+	czas przygotowywania macierzy: 1.77 s,
+	czas wykonywania iteracji: 3.65 s
+	ostateczna norma residuum: 8.503216418599269e-10;
+Metoda Gaussa-Seidla:
+	liczba iteracji: 17,
+	czas przygotowywania macierzy: 1.68 s,
+	czas wykonywania iteracji: 3.24 s
+	ostateczna norma residuum: 3.135653035635816e-10;
+
+Zadanie C:
+Metoda Jacobiego:
+	liczba iteracji: 600,
+	czas przygotowywania macierzy: 1.76 s,
+	czas wykonywania iteracji: 90.51 s
+	ostateczna norma residuum: 2.6485191949487682e+76;
+Metoda Gaussa-Seidla:
+	liczba iteracji: 509,
+	czas przygotowywania macierzy: 1.67 s,
+	czas wykonywania iteracji: 97.24 s
+	ostateczna norma residuum: inf;
+
+Zadanie D:
+Metoda faktoryzacji LU:
+	czas faktoryzacji macierzy: 28.51 s,
+	czas podstawiania (wprzód i wstecz): 0.08 s
+	norma residuum: 2.3534474985059237e-13
+
+Zadanie E:
+N = 100:
+	metoda Jacobiego: 0.07 s,
+	metoda Gaussa-Seidla: 0.06 s,
+	metoda faktoryzacji LU: 0.04 s
+N = 500:
+	metoda Jacobiego: 1.56 s,
+	metoda Gaussa-Seidla: 1.47 s,
+	metoda faktoryzacji LU: 4.76 s
+N = 1000:
+	metoda Jacobiego: 6.23 s,
+	metoda Gaussa-Seidla: 5.85 s,
+	metoda faktoryzacji LU: 37.49 s
+N = 2000:
+	metoda Jacobiego: 25.47 s,
+	metoda Gaussa-Seidla: 23.36 s,
+	metoda faktoryzacji LU: 297.38 s
+N = 3000:
+	metoda Jacobiego: 58.36 s,
+	metoda Gaussa-Seidla: 52.92 s,
+	metoda faktoryzacji LU: 1000.32 s
